@@ -2,7 +2,7 @@
 layout: post
 disqus_comments: true
 date: 2014-04-06 01:44:00 GMT+9
-title: AngularJS, grunt, karma bower yeoman
+title: AngularJS, grunt, karma, bower, yeoman
 ---
 # Test 환경
 Mac OS X Mavericks 10.9.2 
@@ -10,7 +10,7 @@ Mac OS X Mavericks 10.9.2
 # Yeoman 으로 작업 환경 갖추기
 ![](http://bwahn.github.io/images/yo-bower-grunt.png)
 
-* yo : CLI tool for scaffolding out Yeoman projects.
+* yo : CLI tool for scaffolding out Yeoman projects. (http://yeoman.io/)
 * bower : the package management tool
 * grunt : build tool
 * karma : grunt test 에서 사용됨
