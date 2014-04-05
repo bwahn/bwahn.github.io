@@ -12,9 +12,14 @@ Mac OS X Mavericks 10.9.2
 
 * yo : CLI tool for scaffolding out Yeoman projects. (http://yeoman.io/)
 * bower : A package manager for the web ( http://bower.io/ )
-  * component.json
+  * component.json : 의존관계를 설정함
+  * .bowerrc : 컴포넌트 설치 위치 정보 
 * grunt : The Javascript Task Runner ( http://gruntjs.com/ )
+  * Gruntfile.js : ant와 같은 수행 Task를 정의
+  * package.json : Node.js 위에 구동되므로 package.json에 Grunt contributor 라이브러리 정의
 * karma : Spectacular Test Runner for Javascript ( http://karma-runner.github.io/0.12/index.html )
+  * karma.conf.js : 로컬테스트 환경
+  * karma-e2e.conf.js : Real Browser 테스트 환경 ( end-to-end client<->server 테스트 수행, port를 8080 사용함)
 
 # Vagrant 환경 구성하기 
 
