@@ -12,7 +12,7 @@ Mac OS X Mavericks 10.9.2
 
 * yo : CLI tool for scaffolding out Yeoman projects. (http://yeoman.io/)
 * bower : A package manager for the web ( http://bower.io/ )
-** component.json
+  * component.json
 * grunt : The Javascript Task Runner ( http://gruntjs.com/ )
 * karma : Spectacular Test Runner for Javascript ( http://karma-runner.github.io/0.12/index.html )
 
