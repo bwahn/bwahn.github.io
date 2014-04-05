@@ -10,5 +10,10 @@ title: Projects
 - [Jekyll]
 - [GoLang]
 - [yardsale]
+- [Mac OS X]
+- [iPhone]
+- [ffmpeg]
+- [streaming]
+- [Android]
 
 ## More hacks
