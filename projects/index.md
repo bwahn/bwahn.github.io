@@ -10,10 +10,9 @@ title: Projects
 - [Jekyll]
 - [GoLang]
 - [yardsale]
-- [Mac OS X]
-- [iPhone]
+- [Mac OS X : K-POP 최신곡 듣기 - melon]
+- [iPhone : K-POP 최신곡 듣기 - melon]
+- [Android : K-POP 최신곡 듣기 - melon]
 - [ffmpeg]
-- [streaming]
-- [Android]
 
 ## More hacks
