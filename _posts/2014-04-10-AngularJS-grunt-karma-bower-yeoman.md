@@ -8,6 +8,9 @@ title: AngularJS, grunt, karma bower yeoman
 # Vagrant 환경 구성하기 
 
 
+## Vagrant file 편집
+$ vi Vagrantfile
+
 ```
 #
 # Vagrantfile
@@ -26,3 +29,5 @@ Vagrant.configure("1") do |config|
   end
 end
 ```
+
+## node-bootstrap.sh 편집하기 
