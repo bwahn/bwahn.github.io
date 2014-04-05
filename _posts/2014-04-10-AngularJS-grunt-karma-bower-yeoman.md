@@ -11,9 +11,10 @@ Mac OS X Mavericks 10.9.2
 ![](http://bwahn.github.io/images/yo-bower-grunt.png)
 
 * yo : CLI tool for scaffolding out Yeoman projects. (http://yeoman.io/)
-* bower : the package management tool
-* grunt : build tool
-* karma : grunt test 에서 사용됨
+* bower : A package manager for the web ( http://bower.io/ )
+** component.json
+* grunt : The Javascript Task Runner ( http://gruntjs.com/ )
+* karma : Spectacular Test Runner for Javascript ( http://karma-runner.github.io/0.12/index.html )
 
 # Vagrant 환경 구성하기 
 
@@ -92,3 +93,5 @@ echo "=========================================="
 echo "and check the page : http://192.168.100.10"
 
 ```
+
+## 
