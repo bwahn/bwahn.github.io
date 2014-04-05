@@ -7,3 +7,4 @@ title: Construction
 ---
 
 I'm currently building the frames and set of basic instructions &#38; funcs for my new portfolio.
+
