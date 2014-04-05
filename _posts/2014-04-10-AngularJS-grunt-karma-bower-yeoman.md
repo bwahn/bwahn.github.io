@@ -7,6 +7,9 @@ title: AngularJS, grunt, karma bower yeoman
 # Test 환경
 Mac OS X Mavericks 10.9.2 
 
+# Yeoman 으로 작업 환경 갖추기
+!yo-bower-grunt.png!
+
 # Vagrant 환경 구성하기 
 
 * Vagrant file 편집
@@ -26,12 +29,61 @@ Vagrant.configure("1") do |config|
 
   config.vm.define :yo_web do |yo_web_config|
     yo_web_config.vm.network :hostonly, "192.168.100.10"
-    yo_web_config.vm.network :forwarded_port, guest: 8080, host: 8080, auto_correct: true
 
-    yard_web_config.vm.share_folder "www", "/www", "/project/yo_prj/www"
-    yard_web_config.vm.provision :shell, :path => "node-bootstrap.sh"
+    yo_web_config.vm.share_folder "www", "/www", "/project/yo_prj/www"
+    yo_web_config.vm.provision :shell, :path => "node-bootstrap.sh"
   end
 end
 ```
 
 ## node-bootstrap.sh 편집하기 
+(설치 시간이 많이 소요된다.)
+
+```
+$ vi node-bootstrap.sh
+
+#!/usr/bin/env bash
+
+# Get root up in here
+sudo su
+
+apt-get -y update
+apt-get install -y python-software-properties
+apt-get install -y subversion curl
+apt-get install -y git
+
+add-apt-repository -y ppa:chris-lea/node.js
+apt-get -y update
+apt-get install -y nodejs
+apt-get install -y libfontconfig1
+
+sudo npm install -g yo
+sudo npm install -g grunt-cli bower
+sudo npm install -g generator-webapp
+
+sudo gem install compass
+
+echo ""
+echo ""
+echo ""
+echo "=========================================="
+echo "$ vagrant ssh"
+echo "$ cd /www"
+echo "$ mkdir my-yo-project"
+echo "$ cd my-yo-project"
+echo ""
+echo "$ yo angular"
+echo "or"
+echo "$ yo webapp"
+echo ""
+echo "$ vi Gruntfile.js"
+echo "port: 80"
+echo "hostname: '192.168.100.10'"
+echo ""
+echo "$ sudo grunt serve"
+echo ""
+echo ""
+echo "=========================================="
+echo "and check the page : http://192.168.100.10"
+
+```
