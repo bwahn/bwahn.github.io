@@ -5,7 +5,8 @@ title: About
 ---
 
 My name is Eric Ahn. I'm a Korean maker living in Seoul with a passion for technology, who have worked with a number of different companies since theh 1990s, including
-[Nimbusnetworks]
+[Nimbusnetworks](http://www.nimbusnetworks.co.kr)
+
 More information can be found through [LinkedIn](http://kr.linkedin.com/in/bwahn)
 
 Currently, I work for [SKPlanet](http://www.skplanet.com/)
@@ -20,4 +21,4 @@ You can find me on SNS or OpenSource Community"bwahn".
 - [Flickr](http://www.flickr.com/photos/bwahn/) — photography
 - [Facebook](http://www.facebook.com/bwahn) — friends and foes
 
-### [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> @rsms](http://twitter.com/bwahn)
+### [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> @bwahn](http://twitter.com/bwahn)
