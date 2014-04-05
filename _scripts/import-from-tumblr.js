@@ -1,5 +1,5 @@
-var HOSTNAME = 'blog.hunch.se'
-var DST_DIR = '/Users/rasmus/blog/_posts'
+var HOSTNAME = 'bwahn.github.io'
+var DST_DIR = '/Users/bwahn/blog/_posts'
 var POST_LAYOUT = 'post'
 var DRY_RUN = false
 var TAGS_FILTER = function (tag) { return true; }
