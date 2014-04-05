@@ -18,7 +18,7 @@ You can find me on SNS or OpenSource Community"bwahn".
 - [Twitter](http://twitter.com/bwahn) — a good way to make contact
 - [GitHub](https://github.com/bwahn) — code, juicy code
 - [Instagram](http://instagram.com/bwahn/) — short stories via photo snapshots
-- [Flickr](http://www.flickr.com/photos/bwahn/) — photography
-- [Facebook](http://www.facebook.com/bwahn) — friends and foes
+- [Flickr](https://www.flickr.com/photos/122437286@N08/) — photography
+- [Facebook](https://www.facebook.com/eric.ahn.102) — friends and foes
 
 ### [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> @bwahn](http://twitter.com/bwahn)
