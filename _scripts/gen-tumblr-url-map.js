@@ -1,5 +1,5 @@
-var POSTS_DIR = '/Users/rasmus/blog/_posts'
-var URL_MAP_PATH = '/Users/rasmus/blog/tumblr-urls.json'
+var POSTS_DIR = '/Users/bwahn/blog/_posts'
+var URL_MAP_PATH = '/Users/bwahn/blog/tumblr-urls.json'
 
 console.log('{');
 var fs = require('fs')
