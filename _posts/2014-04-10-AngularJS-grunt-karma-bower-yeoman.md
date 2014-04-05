@@ -7,11 +7,14 @@ title: AngularJS, grunt, karma bower yeoman
 
 # Vagrant 환경 구성하기 
 
+* Vagrant file 편집
 
-## Vagrant file 편집
-$ vi Vagrantfile
+* 다음과 같이 파일을 편집한다. 
 
 ```
+$ cd /project/yo_prj
+
+$ vi Vagrantfile
 #
 # Vagrantfile
 # vi: set ft=ruby :
@@ -22,9 +25,9 @@ Vagrant.configure("1") do |config|
 
   config.vm.define :yo_web do |yo_web_config|
     yo_web_config.vm.network :hostonly, "192.168.100.10"
-    yard_web_config.vm.network :forwarded_port, guest: 8080, host: 8080, auto_correct: true
+    yo_web_config.vm.network :forwarded_port, guest: 8080, host: 8080, auto_correct: true
 
-    yard_web_config.vm.share_folder "www", "/www", "/Volumes/ERIC_DATA/prj_yardsale/www"
+    yard_web_config.vm.share_folder "www", "/www", "/project/yo_prj/www"
     yard_web_config.vm.provision :shell, :path => "node-bootstrap.sh"
   end
 end
