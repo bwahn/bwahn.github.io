@@ -8,8 +8,7 @@ title: AngularJS, grunt, karma bower yeoman
 # Vagrant 환경 구성하기 
 
 * Vagrant file 편집
-
-* 다음과 같이 파일을 편집한다. 
+다음과 같이 파일을 편집한다. 
 
 ```
 $ cd /project/yo_prj
