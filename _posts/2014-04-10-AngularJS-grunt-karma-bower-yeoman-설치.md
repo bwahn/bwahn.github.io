@@ -10,10 +10,10 @@ Mac OS X Mavericks 10.9.2
 # Yeoman 으로 작업 환경 갖추기
 ![](http://bwahn.github.io/images/yo-bower-grunt.png)
 
-* yo : CLI tool for scaffolding out Yeoman projects. (http://yeoman.io/)
-* bower : A package manager for the web ( http://bower.io/ )
-* grunt : The Javascript Task Runner ( http://gruntjs.com/ )
-* karma : Spectacular Test Runner for Javascript ( http://karma-runner.github.io/0.12/index.html )
+* yo : [CLI tool for scaffolding out Yeoman projects.](http://yeoman.io/)
+* bower : [A package manager for the web]( http://bower.io/ )
+* grunt : [The Javascript Task Runner]( http://gruntjs.com/ )
+* karma : [Spectacular Test Runner for Javascript]( http://karma-runner.github.io/0.12/index.html )
 
 # Vagrant 환경 구성하기 
 
@@ -118,5 +118,5 @@ $ yo angular:service myService
 
 
 # Reference : 
-* [Automating front-end workflow with yeoman, @addyosmani Oct 2013 Tokyo] ( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
-* [AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)] ( http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA )
+* [Automating front-end workflow with yeoman, @addyosmani Oct 2013 Tokyo]( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
+* [AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)]( http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA )
