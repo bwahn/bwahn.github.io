@@ -117,6 +117,6 @@ $ yo angular:service myService
 
 
 
-* Reference : 
-** https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# : Oct 2013 Tokyo
-** http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA : AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)
+# Reference : 
+* https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# : Oct 2013 Tokyo
+* http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA : AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)
