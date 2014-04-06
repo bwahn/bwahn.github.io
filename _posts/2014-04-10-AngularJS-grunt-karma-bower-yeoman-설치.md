@@ -118,5 +118,5 @@ $ yo angular:service myService
 
 
 # Reference : 
-* [Oct 2013 Tokyo] ( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
+* [Automating front-end workflow with yeoman, @addyosmani Oct 2013 Tokyo] ( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
 * [AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)] ( http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA )
