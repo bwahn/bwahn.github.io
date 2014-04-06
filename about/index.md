@@ -4,7 +4,7 @@ fb_comments: 3
 title: About
 ---
 
-My name is Eric Ahn. I'm a Korean maker living in Seoul with a passion for technology, who have worked with a number of different companies since 1990s, including
+My name is Eric Ahn. I'm a Korean maker living in Seoul with a passion for technology, who have worked with a number of different companies since 2000s, including
 [Nimbusnetworks](http://www.nimbusnetworks.co.kr)
 
 More information can be found through [LinkedIn](http://kr.linkedin.com/in/bwahn)
