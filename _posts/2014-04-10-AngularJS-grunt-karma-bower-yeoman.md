@@ -102,14 +102,21 @@ $ yo angular
 $ yo angular:app
 
 // 컨트롤러 생성
-$ yo angular:controller myControlloerName 
+$ yo angular:controller myController
 
 // 디렉티브 생성
-$ yo angular:directive myDirectiveName
+$ yo angular:directive myDirective
 
 // 필터 생성
-$ yo angular:filter myFilterNmae
+$ yo angular:filter myFilter
 
 // 서비스 생성
-$ yo angular:service myServiceName
+$ yo angular:service myService
 ```
+
+
+
+
+* Reference : 
+** https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# : Oct 2013 Tokyo
+** http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA : AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)
