@@ -1,4 +1,4 @@
-var HOSTNAME = 'bwahn.github.io'
+var HOSTNAME = 'bwahn.me'
 var DST_DIR = '/Users/bwahn/blog/_posts'
 var POST_LAYOUT = 'post'
 var DRY_RUN = false
