@@ -9,7 +9,7 @@ My name is Eric Ahn. I'm a Korean maker living in Seoul with a passion for techn
 
 More information can be found through [LinkedIn](http://kr.linkedin.com/in/bwahn)
 
-Currently, I work for [SKPlanet](http://www.skplanet.com/eng/)
+Currently, I work at [SKPlanet](http://www.skplanet.com/eng/)
 
 ## Elsewhere
 
