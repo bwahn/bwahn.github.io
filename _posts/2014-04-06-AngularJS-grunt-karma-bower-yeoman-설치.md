@@ -118,6 +118,6 @@ $ yo angular:service myService
 
 
 # Reference : 
-* [getting started with yo]( http://www.youtube.com/watch?feature=player_embedded&v=zBt2g9ekiug )
+* [Getting started with Yeoman and generator-webapp]( http://www.youtube.com/watch?feature=player_embedded&v=zBt2g9ekiug )
 * [Automating front-end workflow with yeoman, @addyosmani Oct 2013 Tokyo]( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
 * [AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)]( http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA )
