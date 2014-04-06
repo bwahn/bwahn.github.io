@@ -65,6 +65,8 @@ apt-get install -y libfontconfig1
 sudo npm install -g yo
 sudo npm install -g grunt-cli bower
 sudo npm install -g generator-webapp
+sudo npm install -g generator-angular
+sudo npm install -g generator-karma
 
 sudo gem install compass
 
@@ -93,4 +95,21 @@ echo "and check the page : http://192.168.100.10"
 
 ```
 
-## 
+# yo 명려어 
+```
+// 애플리케이션 생성
+$ yo angular 
+$ yo angular:app
+
+// 컨트롤러 생성
+$ yo angular:controller myControlloerName 
+
+// 디렉티브 생성
+$ yo angular:directive myDirectiveName
+
+// 필터 생성
+$ yo angular:filter myFilterNmae
+
+// 서비스 생성
+$ yo angular:service myServiceName
+```
