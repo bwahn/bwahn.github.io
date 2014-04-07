@@ -108,7 +108,7 @@ echo "=> and check the page : http://192.168.100.10"
 
 ```
 
-# yo 명려어 
+# yo 명령어 
 ```
 // 애플리케이션 생성
 $ yo angular 
