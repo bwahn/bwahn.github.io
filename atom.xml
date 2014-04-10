@@ -4,8 +4,8 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Eric Ahn</title>
-  <link href="http://bwahn.github.io/atom.xml" rel="self"/>
-  <link href="http://bwahn.github.io/"/>
+  <link href="http://bwahn.me/atom.xml" rel="self"/>
+  <link href="http://bwahn.me/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://rsms.me/</id>
   <author>
@@ -15,13 +15,13 @@ layout: nil
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="http://bwahn.github.io{{ post.url }}"/>
+    <link href="http://bwahn.me{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://bwahn.github.io{{ post.id }}</id>
+    <id>http://bwahn.me{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
     <author>
       <name>Eric Ahn</name>
-      <uri>http://bwhan.github.io/about/</uri>
+      <uri>http://bwhan.me/about/</uri>
     </author>
   </entry>
   {% endfor %}

@@ -20,5 +20,5 @@ if (isset($gitblog_urls[$reqpath])) {
 }
 
 header('HTTP/1.1 301 Moved Permanently');
-header('Location: http://bwahn.github.io/'.$dstpath);
+header('Location: http://bwahn.me/'.$dstpath);
 ?>

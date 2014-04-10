@@ -74,28 +74,41 @@ echo ""
 echo ""
 echo ""
 echo "=========================================="
+echo "A complete workflow : => "
 echo "$ vagrant ssh"
 echo "$ cd /www"
 echo "$ mkdir my-yo-project"
 echo "$ cd my-yo-project"
-echo ""
-echo "$ yo angular"
-echo "or"
 echo "$ yo webapp"
 echo ""
 echo "$ vi Gruntfile.js"
 echo "port: 80"
 echo "hostname: '192.168.100.10'"
 echo ""
-echo "$ sudo grunt serve"
-echo ""
+echo "$ bower install underscore "
+echo "$ sudo grunt serve ( for preview )"
+echo "$ grunt ( build )"
 echo ""
 echo "=========================================="
-echo "and check the page : http://192.168.100.10"
+echo "with the AngularJS generator : => "
+echo "$ yo angular"
+echo ""
+echo "$ vi Gruntfile.js"
+echo "port: 80"
+echo "hostname: '192.168.100.10'"
+echo ""
+echo "$ bower install angular-ui"
+echo "$ grunt test ( for test )"
+echo "$ sudo grunt serve"
+echo "$ grunt"
+echo "=========================================="
+echo ""
+echo ""
+echo "=> and check the page : http://192.168.100.10"
 
 ```
 
-# yo 명려어 
+# yo 명령어 
 ```
 // 애플리케이션 생성
 $ yo angular 
@@ -118,5 +131,6 @@ $ yo angular:service myService
 
 
 # Reference : 
+* [Getting started with Yeoman and generator-webapp]( http://www.youtube.com/watch?feature=player_embedded&v=zBt2g9ekiug )
 * [Automating front-end workflow with yeoman, @addyosmani Oct 2013 Tokyo]( https://speakerdeck.com/player/f1dbf1e0220a0131d6a8721ad3458357?slide=95# )
 * [AngularJS MTV Meetup: AngularJS + Yeoman (2012-10-9)]( http://www.youtube.com/watch?feature=player_embedded&v=XOmwZopzcTA )
