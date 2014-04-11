@@ -4,11 +4,10 @@ disqus_comments: true
 date: 2005-03-03 09:9:00 GMT+9
 title: Database 03172-02  
 ---
-# 커리큘럼
+# 강의내용
 
-데이타이스 03172-02 
-2005 봄학기
-
+데이타이스 03172-02:2005 봄학기
+mailto : byungwook.ahn@gmail.com
 
 공지사항 
 
