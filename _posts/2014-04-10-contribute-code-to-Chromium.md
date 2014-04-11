@@ -10,33 +10,74 @@ title: Contribute code to Chromium
 * https://code.google.com/p/chromium/wiki/MacBuildInstructions 를 참고하여 소스코드를 받아 놓고, 빌드까지 한다.
 
 
+* git 정보 확인 
+
 ```
-2) git 정보 확인 
+➜  ✗  cd  /chromium/src/chrome/browser
 
-➜  src git:(master) ✗ pwd
-/chromium/src
+➜  browser git:(master) ✗ pwd
+/chromium/src/chrome/browser
 
-➜  base git:(master) ✗ git remote -v
+➜  browser git:(master) ✗ git remote -v
 origin	https://chromium.googlesource.com/chromium/src.git (fetch)
 origin	https://chromium.googlesource.com/chromium/src.git (push)
+```
 
-3) http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml 문제점 찾기 
-// src/base 디렉토리내의 코드 중 문제점을 찾아내어 error.out 에 저장한다.
-// 
-➜  base git:(master) ✗ cpplint.py * >&  error.out
+* http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml 를 참조해서 문제점 찾아보기
 
-4) 
+```
 
-// 확인
+➜  base git:(master) ✗ cpplint.py * 
+
+  1 Ignoring DEPS; not a .cc or .h file
+  2 Done processing DEPS
+  3 Ignoring OWNERS; not a .cc or .h file
+  4 Done processing OWNERS
+  5 about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  [build/include] [4]
+  6 about_flags.cc:103:  Consider using DCHECK_EQ instead of DCHECK(a == b)  [readability/check] [2]
+  7 about_flags.cc:460:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+  8 about_flags.cc:467:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+  9 about_flags.cc:479:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+  
+```
+
+```
+about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  [build/include] [4] 
+=> 문제점 리뷰후 내용을 수정 
+```
+
+* branch 생성
+
+```
+$ git checkout -b base_cleanup
+
 $ git status 
 
-// AUTHORS 에 자신이름 이메일 추가
+```
 
-// branch 작업
-$ git checkout -b bwahn_cleanup
+* 수정된 내용을 commit
 
-// commit
-$ git commit -am "aaaa"
+```
+$ git commit -am "cleaning the code"
+...
+```
+
+* AUTHORS에 자신의 이름/이메일 추가한다.
+
+```
+➜  src git:(master) ✗  pwd
+/chromium/src
+
+➜  src git:(master) ✗  vi AUTHORS
+...
+
+
+```
+
+
+
+
+```
 
 // codereview사이트로 upload
 // BUG와 TEST를 안해도 되니 모두 NONE 으로..
