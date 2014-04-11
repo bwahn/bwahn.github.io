@@ -42,6 +42,7 @@ origin	https://chromium.googlesource.com/chromium/src.git (push)
 ```
 
 ```
+5번째 라인
 about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  [build/include] [4] 
 => 문제점 리뷰후 내용을 수정 
 ```
@@ -49,12 +50,11 @@ about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  
 # branch 생성
 
 ```
-➜  browser git:(master) ✗ ggit checkout -b browser_bwahn
+➜  browser git:(master) ✗ git checkout -b browser_bwahn
 
 
 ➜  browser git:(browser_bwahn) ✗ git branch
 * browser_bwahn
-  bwahn_cleanup
   master
   
 ```
@@ -78,7 +78,7 @@ $ git commit -am "cleaning the code"
 
 ```
 
-# codereview로 upload
+# codereview를 위해 upload
 
 
 ```
@@ -106,7 +106,7 @@ https://codereview.chromium.org/234023004/
 
 
 
-// https://codereview.chromium.org/232973002/ 
+=> 브라우저 : https://codereview.chromium.org/232973002/ 
 // 에디트 후 reviewer 지정
 
 // Publish+Mail Comments 로 메일을 보낸다. 
