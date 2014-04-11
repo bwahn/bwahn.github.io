@@ -7,7 +7,7 @@ title: Contribute code to Chromium
 
 # 준비작업
 
-* https://code.google.com/p/chromium/wiki/MacBuildInstructions 를 참고하여 소스코드를 받아 놓고, 빌드까지 한다.
+* [MacBuildInstructions]( https://code.google.com/p/chromium/wiki/MacBuildInstructions) 를 참고하여 소스코드를 받아 놓고, 빌드까지 한다.
 
 
 * git 정보 확인 
@@ -23,7 +23,7 @@ origin	https://chromium.googlesource.com/chromium/src.git (fetch)
 origin	https://chromium.googlesource.com/chromium/src.git (push)
 ```
 
-# http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml 를 참조해서 문제점 찾아보기
+# [CPP Guide]( http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml )를 참조해서 문제점 찾아보기
 
 ```
 
