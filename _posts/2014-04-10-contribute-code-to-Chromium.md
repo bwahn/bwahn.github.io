@@ -5,11 +5,12 @@ date: 2014-04-09 17:00:00 GMT+9
 title: Contribute code to Chromium
 ---
 
-# Contribute 하기 
+# 준비작업
+
+* https://code.google.com/p/chromium/wiki/MacBuildInstructions 를 참고하여 소스코드를 받아 놓고, 빌드까지 한다.
+
 
 ```
-1) https://code.google.com/p/chromium/wiki/MacBuildInstructions 를 참고하여 소스코드를 받아 놓고, 빌드까지 한다.
-
 2) git 정보 확인 
 
 ➜  src git:(master) ✗ pwd
