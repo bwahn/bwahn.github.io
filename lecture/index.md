@@ -5,5 +5,5 @@ title: Lecture
 ---
 
 
-- [Database]
+- [Database : The Catholic Univ. of Seoul]( http://bwahn.me/lecture/2005-spring-Database-Cathoric-Univ.md )
 
