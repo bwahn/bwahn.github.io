@@ -23,7 +23,7 @@ origin	https://chromium.googlesource.com/chromium/src.git (fetch)
 origin	https://chromium.googlesource.com/chromium/src.git (push)
 ```
 
-* http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml 를 참조해서 문제점 찾아보기
+# http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml 를 참조해서 문제점 찾아보기
 
 ```
 
@@ -46,7 +46,7 @@ about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  
 => 문제점 리뷰후 내용을 수정 
 ```
 
-* branch 생성
+# branch 생성
 
 ```
 ➜  browser git:(master) ✗ ggit checkout -b browser_bwahn
@@ -59,14 +59,14 @@ about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  
   
 ```
 
-* 수정된 내용을 commit
+# 수정된 내용을 commit
 
 ```
 $ git commit -am "cleaning the code"
 ...
 ```
 
-* AUTHORS에 자신의 이름/이메일 추가한다.
+# AUTHORS에 자신의 이름/이메일 추가한다.
 
 ```
 ➜  src git:(master) ✗  pwd
@@ -78,7 +78,7 @@ $ git commit -am "cleaning the code"
 
 ```
 
-* codereview로 upload
+# codereview로 upload
 
 
 ```
@@ -94,7 +94,7 @@ TEST=NONE
 https://codereview.chromium.org/234023004/
 ```
 
-* codereviewer 지정하기
+# codereviewer 지정하기
 
 ```
 // OWNERS 찾아보기 
