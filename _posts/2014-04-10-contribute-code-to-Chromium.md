@@ -49,10 +49,14 @@ about_flags.cc:44:  "ash/ash_switches.h" already included at about_flags.cc:13  
 * branch 생성
 
 ```
-$ git checkout -b base_cleanup
+➜  browser git:(master) ✗ ggit checkout -b browser_bwahn
 
-$ git status 
 
+➜  browser git:(browser_bwahn) ✗ git branch
+* browser_bwahn
+  bwahn_cleanup
+  master
+  
 ```
 
 * 수정된 내용을 commit
@@ -74,28 +78,36 @@ $ git commit -am "cleaning the code"
 
 ```
 
-
+* codereview로 upload
 
 
 ```
 
-// codereview사이트로 upload
-// BUG와 TEST를 안해도 되니 모두 NONE 으로..
 $ git cl upload
 
-// 업로드하면 아래처럼 번호가 나온다.
-https://codereview.chromium.org/232973002/ 
-
-// 해당 디렉토리에 OWNERS를 지정하기위해 
-// 적당한(되도록 착한) 사람을 선택한다.
-// 
-$ cat OWNERS
-
-// https://codereview.chromium.org/232973002/ 
-// 에디트 후 review : darin@chromium.org 지정
+=> BUG와 TEST를 안해도 된다면, 모두 NONE 으로..
 BUG=NONE
 TEST=NONE
 
+
+// 업로드하면 아래처럼 번호가 나온다.
+https://codereview.chromium.org/234023004/
+```
+
+* codereviewer 지정하기
+
+```
+// OWNERS 찾아보기 
+// 
+➜  browser git:(master) ✗ pwd
+/chromium/src/chrome/browser
+
+➜  browser git:(master) ✗ cat OWNERS
+
+
+
+// https://codereview.chromium.org/232973002/ 
+// 에디트 후 reviewer 지정
 
 // Publish+Mail Comments 로 메일을 보낸다. 
 
