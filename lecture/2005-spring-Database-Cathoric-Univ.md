@@ -6,7 +6,10 @@ title: Database 03172-02
 ---
 # 강의내용
 
-데이타이스 03172-02:2005 봄학기
+The Cathoric Univ. of Seoul
+데이타이스 03172-02
+2005 봄학기
+
 mailto : byungwook.ahn@gmail.com
 
 공지사항 
