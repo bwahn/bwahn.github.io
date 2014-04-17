@@ -120,8 +120,3 @@ mailto : byungwook.ahn@gmail.com
 - 01 installtips_final.pdf
 
 
-유용한 링크
-1. Oracle Technet 
-2. 데이타베이스사랑넷 
-3. dev.mysql.org 
-
