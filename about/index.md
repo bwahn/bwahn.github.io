@@ -9,7 +9,7 @@ My name is Eric Ahn. I'm a Korean maker living in Seoul with a passion for techn
 More information can be found through [LinkedIn](http://kr.linkedin.com/in/bwahn)
 
 Currently, I work at [SKPlanet](http://www.skplanet.com/eng/) and
-[talent donation as Chromium committer](http://chromium.org)
+[contribute talent to Chromium Project](https://codereview.chromium.org/search?closed=1&owner=byungwook.ahn%40gmail.com&reviewer=&cc=&repo_guid=&base=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=30)
 
 ## Elsewhere
 
