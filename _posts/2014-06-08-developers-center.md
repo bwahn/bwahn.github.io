@@ -15,7 +15,6 @@ title: Developers Center 비교하기
 Google | One Google Acount
 Microsoft | Live.com ID
 Yahoo | Yahoo ID/Google ID/Facebook ID
-SKPlanet | SKPlanet OneID
 
 # 사용할 수 있는 리소스들은?
 
@@ -36,4 +35,4 @@ SKPlanet | SKPlanet OneID
 * [Google Developers]( https://developers.skplanetx.com )
 * [Microsoft Developers]( http://msdn.microsoft.com/dn271880 )
 * [Yahoo Developers]( https://developer.yahoo.com )
-* [SKPlanet Developers]( https://developers.skplanetx.com )
+
