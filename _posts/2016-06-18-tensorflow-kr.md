@@ -9,7 +9,9 @@ title: Tensorflow Docker GPU Distributed Environment
 ## 발표자료: http://www.slideshare.net/EricAhn/tensorflow-in-docker
 
 
-Tensorflow 모델 디버깅을 위한 팁과 가이드 최종욱 (서울대학교에서 컴퓨터비전 및 기계학습을 공부하고 있는 학생입니다. Tensorflow의 강력함과 아름다움에 반해 딥러닝 연구에Tensorflow를 주로 사용하고 있습니다.)
+---
+## Tensorflow 모델 디버깅을 위한 팁과 가이드 최종욱 (서울대학교에서 컴퓨터비전 및 기계학습을 공부하는 학생)
+Tensorflow의 강력함과 아름다움에 반해 딥러닝 연구에Tensorflow를 주로 사용하고 있습니다.
 발표자료: https://wookayin.github.io/TensorflowKR-2016-talk-debugging
 관련코드: https://github.com/wookayin/TensorflowKR-2016-talk-debugging
 
