@@ -4,7 +4,8 @@ disqus_comments: true
 date: 2016-06-18 01:00:00 GMT+9
 title: Tensorflow Docker GPU Distributed Environment
 ---
-# Docker 환경에서 TensorFlow를 설치하고 응용하기 안병욱 (SK techx에서 매니저로 근무하고 있습니다.작년에 PyConKR 2015, PyConHK 2015에서 Docker와 Python 에 대해서 발표를 하면서, 흥미롭고 재미있는 주제를 접할 기회가 있었습니다. 최근에는 체력도 딸리고 다이어트를 위해 복싱을 시작했습니다.)
+# Docker 환경에서 TensorFlow를 설치하고 응용하기 
+# 안병욱 
 발표자료: http://www.slideshare.net/EricAhn/tensorflow-in-docker
 
 
