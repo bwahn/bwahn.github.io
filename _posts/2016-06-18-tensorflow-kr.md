@@ -18,6 +18,11 @@ title: Tensorflow-KR
 - Kaz Sato (Staff Developer Advocate, Tech Lead for Data & Analytics, Google Cloud Platform. He  is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy team for Machine Learning and Data Analytics products, such as TensorFlow, Vision API and BigQuery, and speaking at major events including Google I/O 2016, Strata+Hadoop World 2016 San Jose, Google Next 2015 NYC and Tel Aviv and DevFest Berlin.)
 - [발표자료](http://sssslide.com/speakerdeck.com/kazunori279/machine-intelligence-made-easy).
 
+일본 Google에서 당일날 발표장소로 오시는 Kaz Sato씨가 조금 늦을지도 모른다는 얘기와는 달리 발표시간을 정확히 맞춰 주셨다.
+앞부분은 Neural Network 소개, operation 소개를 했다. http://playground.tensorflow.org/ 를 예를 들어 Classification, Hidden Layer 예를 소개했다.
+
+Vision/Speech API는 사용해보지 않았던 APIs이다.
+
 
 ------------------------------------------------------------------------------
 
