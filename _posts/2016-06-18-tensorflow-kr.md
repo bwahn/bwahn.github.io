@@ -16,7 +16,7 @@ title: Tensorflow-KR
 
 - Machine Intelligence made easy: Vision/Speech API, TensorFlow and Cloud ML  
 - Kaz Sato (Staff Developer Advocate, Tech Lead for Data & Analytics, Google Cloud Platform. He  is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy team for Machine Learning and Data Analytics products, such as TensorFlow, Vision API and BigQuery, and speaking at major events including Google I/O 2016, Strata+Hadoop World 2016 San Jose, Google Next 2015 NYC and Tel Aviv and DevFest Berlin.)
-- 발표자료 : http://sssslide.com/speakerdeck.com/kazunori279/machine-intelligence-made-easy
+- 발표자료 : [http://sssslide.com/speakerdeck.com/kazunori279/machine-intelligence-made-easy]
 
 
 
