@@ -33,8 +33,10 @@ Google에서 Deep learning을 응용하는 서비스가 의외로 많았다. Map
 
 TensorFlow가 어디쯤인지 직관적으로 설명을 했다. Academic/research. 테스트하고 문서를 보면서 느꼈는데, 직접 설명을 들을 수 있었다. 응용 서비스에 TensorFlow를 사용하려면 많은 노력이 필요하다. 
 슬라이드 중에 Jeff Dean의 Youtube video 데모 소개도 했는데, 
+
 - Training at local 8.3 hours with 1 node
 - Training at cloud : 32 min with 20 nodes ( 15x faster )
+
 결국 장비의 싸움이다. 직접 분산 환경에 장비를 구축하지 말고, Google cloud platform 에서 테스트하고 응용해주세요!로 들렸다. 
 
 ------------------------------------------------------------------------------
