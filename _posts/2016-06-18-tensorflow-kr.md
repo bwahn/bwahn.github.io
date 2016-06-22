@@ -46,6 +46,39 @@ TensorFlow가 어디쯤인지 직관적으로 설명을 했다. Academic/researc
 - 발표자료 : http://www.slideshare.net/EricAhn/tensorflow-in-docker
 - 데모코드 : https://github.com/bwahn/tensorflow-kr-docker
 
+키워드는 Docker, GPU, TensorFlow, 분산 환경이였다.
+Docker로 TensorFlow를 설치하는 방법을 보여주었다. 
+Mac Book에서 주로 테스트하였고, GPU가 동작하는지 보여주기위해 CUDA 설치 방법을 알려주었다.
+CUDA 예제 중에서 deviceQuery 를 실행했을때, Mac Book에서 CUDA 오류 메시지를 설명하였다. 
+TensorFlow는 Linux Machine(Intel 노트북)+GPU로 공부하거나 연구하는게 정답이다.
+사실, Linux Intel notebook + Docker + GPU 테스트 환경이였으면, 좋은 환경이였을 것 같다.
+
+데모는 Mac Book이 호스트이고, Virtual Box에 Ubuntu VM을 설치하였고, VM에 컨테이너를 실행하였다.
+
+TensorFlow를 Google Cloud Platform이 아닌 로컬에서 실행할 수 있는 방법을 찾아서 보여주었다. 
+분산 환경에서 TensorFlow를 어떻게 실행할 수 있는지 gRPC, Server 생성, Cluster 설정, Task, Job 의미를 설명했다.
+서버 호스트, 포트 정보 설정이 수동이라고 설명했다.
+Borg config 모듈같은 기능을 개발해야한다고 설명했다.
+분산 디바이스들(여기서는 컨테이너)에게 operator를 할당하는 예제 코드를 보여주었다.
+
+사실, Docker 컨테이너를 생성해서 Jupyter, Tensorboard가 동작하고 result가 저장될지는 확신이 없었고, 
+며칠 동안 고민하다가 만들었다.
+
+Demo를 보여주기위해 만든 yaml 파일과 worker, jupyter sample project를 설명했다.
+분산 디바이스들은 소스코드에 명시적으로 입력하였다.
+gRPC를 위해 모든 디바이스는 8080 포트를 선언하였다.
+각 디바이스들은 Mac Book의 /tmp/tf/tensorflow-logs 위치를 컨테이너의 /var/log/tensorflow로 볼륨을 지정하였다.
+
+데모는 Jupyter에서 intro_word2vec_distributed.ipynb 를 불러와서 step 별로 실행하였다. 
+word 파일은 30MB가 넘었는데, Mac Book에서 처리하지 못해서 15MB만을 사용했다. 
+
+training이 굉장히 느려서, 2~3 step이후 정지하였고, weavescope에서 worker/ps/master 간에 연결된 그래프를 보여주었다.
+연결이 되었다는 의미는 실제 gRPC 통신이 있었다는 것을 의미한다.
+
+마이크, 화면등으로 미숙하게 데모를 진행했지만, meetup 이라 재미있게 즐겼을거라 생각합니다.
+
+
+
 ------------------------------------------------------------------------------
 
 - Tensorflow 모델 디버깅을 위한 팁과 가이드
