@@ -37,7 +37,7 @@ TensorFlow가 어디쯤인지 직관적으로 설명을 했다. Academic/researc
 - Training at local 8.3 hours with 1 node
 - Training at cloud : 32 min with 20 nodes ( 15x faster )
 
-결국 장비의 싸움이다. 직접 분산 환경에 장비를 구축하지 말고, Google cloud platform 에서 테스트하고 응용해주세요!로 들렸다. 
+결국 장비의 싸움이다. 직접 분산 환경에 장비를 구축하지 말고, Google cloud platform 에서 테스트하고 응용해주세요!
 
 ------------------------------------------------------------------------------
 
