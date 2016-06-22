@@ -2,11 +2,23 @@
 layout: post
 disqus_comments: true
 date: 2016-06-18 01:00:00 GMT+9
-title: Tensorflow Docker GPU Distributed Environment
+title: Tensorflow-KR
 ---
-### Machine Intelligence made easy: Vision/Speech API, TensorFlow and Cloud ML  
-### Kaz Sato (Staff Developer Advocate, Tech Lead for Data & Analytics, Google Cloud Platform. He  is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy team for Machine Learning and Data Analytics products, such as TensorFlow, Vision API and BigQuery, and speaking at major events including Google I/O 2016, Strata+Hadoop World 2016 San Jose, Google Next 2015 NYC and Tel Aviv and DevFest Berlin.)
-### 발표자료 : http://sssslide.com/speakerdeck.com/kazunori279/machine-intelligence-made-easy
+
+일시: 2016년 6월 18일 11:50AM - 7:00PM
+
+장소: Google Seoul office (역삼역 2번출구 강남 파이낸스 센터 22층)
+
+주최: TensorFlow-KR https://www.facebook.com/groups/TensorFlowKR/ 
+
+후원: 구글 코리아
+
+- Machine Intelligence made easy: Vision/Speech API, TensorFlow and Cloud ML  
+- Kaz Sato (Staff Developer Advocate, Tech Lead for Data & Analytics, Google Cloud Platform. He  is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy team for Machine Learning and Data Analytics products, such as TensorFlow, Vision API and BigQuery, and speaking at major events including Google I/O 2016, Strata+Hadoop World 2016 San Jose, Google Next 2015 NYC and Tel Aviv and DevFest Berlin.)
+- 발표자료 : http://sssslide.com/speakerdeck.com/kazunori279/machine-intelligence-made-easy
+
+
+
 
 ### Docker 환경에서 TensorFlow를 설치하고 응용하기 
 ### 안병욱
