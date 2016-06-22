@@ -86,6 +86,20 @@ training이 굉장히 느려서, 2~3 step이후 정지하였고, weavescope에�
 - 발표자료: https://wookayin.github.io/TensorflowKR-2016-talk-debugging
 - 관련코드: https://github.com/wookayin/TensorflowKR-2016-talk-debugging
 
+디버깅, 기본적인 방벙은 Tensorboard에 summary(scalar/histogram/image) 하는 것도 tf.Print() operation이 있다.
+다른 방법은 tf.Assert(), tf.Print()등을 사용하는 것과 step-by-step debugger가 있다.
+디버거는 pdb, ipdb, pudb 예를 설명했다.
+
+ipdb :
+```
+import ipdb; ipdb.set_trace() ## 로 사용.
+```
+
+pudb :
+```
+import pudb; pudb.set_trace() 
+```
+
 ------------------------------------------------------------------------------
 
 - Zen of Numpy 
