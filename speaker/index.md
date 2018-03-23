@@ -1,9 +1,9 @@
 ---
 layout: dirindex
 fb_comments: 3
-title: Lecture 
+title: speaker
 ---
 
 
-# [Database : 2005y]( http://bwahn.me/lecture/2005-spring-Database-Cathoric-Univ.html )
+# [Database : 2005y]( http://bwahn.me/speaker/2005-spring-Database-Cathoric-Univ.html )
 
