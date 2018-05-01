@@ -1,7 +1,7 @@
 ---
 layout: dirindex
 fb_comments: 3
-title: speaker
+title: Speaker
 ---
 
 - [ PyCon Taiwan 2017 ] "Tensorflow & Python : Fault Detection System" ( https://tw.pycon.org/2017/en-us/events/talk/344208185701171314/ ) 
